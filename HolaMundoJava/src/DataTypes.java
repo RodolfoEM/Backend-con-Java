@@ -7,6 +7,7 @@ public class DataTypes {
         float nF = 123.456F;
 
         // desde Java 10 de pueden declarar variables con "var" sin definir el tipo de dato
+
         var salary = 1000; //int
         //pension 3%
         var pension = salary * 0.03; //double
