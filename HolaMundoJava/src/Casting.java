@@ -16,5 +16,13 @@ public class Casting {
 
         System.out.println(a/b);
         System.out.println((double) a/b);
+
+        int e = 30;
+        int d = 12;
+        double c = e/d;
+        System.out.println(c); // 2.0 valor truncado por cast automático
+
+        double f = (double) e/d;
+        System.out.println(f); // 2.5 valor casteado
    }
 }
