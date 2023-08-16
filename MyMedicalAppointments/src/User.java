@@ -54,4 +54,9 @@ public class User {
             System.out.println("Número  telefónico no válido");
         }
     }
+
+    @Override
+    public String toString() {
+        return "User: " + name + ", Email: " + email + "\nAddreess: " + address + ". Phone: " + phoneNumber;
+    }
 }
